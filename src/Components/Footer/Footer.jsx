@@ -21,7 +21,7 @@ function Footer() {
       </div>
       <div className="footer-bottom">
         <div className="musicolcgy">
-          <h1>Musicolcgy</h1>
+          <h1>Musicology</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
             atque natus cum ipsa labore aliquam.
