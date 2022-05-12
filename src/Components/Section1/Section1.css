@@ -1,0 +1,8 @@
+/* Section */
+.section1 {
+  background-image: url("/public/img/Shape.png");
+  background-position: calc(100% - 0%) calc(100% - -10%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #e8631c;
+}

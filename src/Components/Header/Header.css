@@ -1,0 +1,57 @@
+.banner {
+  height: 95vh;
+  background-image: url("/public/img/background.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 300px 100px 100px;
+}
+
+.banner .content {
+  max-width: 700px;
+}
+
+.content > h1 {
+  font-size: 65px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  color: #ffffff
+}
+
+.content > p {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffffd3;
+  font-weight: 300;
+}
+
+.content > button {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: 'Oswald',sans-serif;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  background-color: #e8631c;
+  padding: 7px 45px;
+  text-transform: uppercase;
+  border: 1px solid #0c0c0c;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .banner {
+    padding: 250px 20px 50px;
+    flex-direction: column-reverse;
+  }
+
+  .content > h1 {
+    font-size: 45px;
+  }
+
+  .content > button {
+    padding: 7px 15px;
+  }
+}
+
+

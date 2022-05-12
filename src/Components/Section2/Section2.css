@@ -1,0 +1,57 @@
+.section.section2 {
+  background-color: #303030;
+}
+
+.box2 {
+  background-color: #e8631c;
+  padding: 50px 20px 0px 20px;
+}
+
+.box2 > h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.box2 > p {
+  padding-bottom: 25px;
+}
+
+.box2 > img {
+  width: 150px;
+}
+
+.box2 > button {
+  width: 100%;
+  padding: 15px 0px;
+  background-color: #303030;
+  font-size: 1.2rem;
+  font-family: "Oswald", sans-serif;
+  color: #ffffffb4;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .boxes2 {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .boxes2 .box2 {
+    width: 300px;
+    height: 400px;
+    padding: 10px 20px 0px 20px;
+  }
+
+  .box2 > h1 {
+      padding-bottom: 5px;
+  }
+
+  .box2 > p {
+      padding-bottom: 10px;
+  }
+
+  .box2 > button {
+    font-size: 1rem;  
+    padding: 5px 0px;
+  }
+} ;
